@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842356480549",
+    "project_id": "pamfirestroe",
+    "storage_bucket": "pamfirestroe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842356480549:android:fb4777623fce0997ed7dcc",
+        "android_client_info": {
+          "package_name": "com.example.p9meeting13"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrbXJxWMk8zkwSI8J9RutDoyMgVRyxrmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
