@@ -91,6 +91,15 @@ data class FormErrorState(
                 alamat == null && kelas == null && angkatan == null
     }
 }
+// data class untuk menyimpan data input form
+data class MahasiswaEvent(
+    val nim: String = "",
+    val nama: String = "",
+    val gender: String = "",
+    val alamat: String = "",
+    val kelas: String = "",
+    val angkatan: String = "",
+)
 
 //menyimpan input form ke dalam entity
 fun MahasiswaEvent.toMhsModel(): Mahasiswa = Mahasiswa(
@@ -100,14 +109,4 @@ fun MahasiswaEvent.toMhsModel(): Mahasiswa = Mahasiswa(
     alamat = alamat,
     kelas = kelas,
     angkatan = angkatan
-)
-
-// data class untuk menyimpan data input form
-data class MahasiswaEvent(
-    val nim: String = "",
-    val nama: String = "",
-    val gender: String = "",
-    val alamat: String = "",
-    val kelas: String = "",
-    val angkatan: String = "",
 )
