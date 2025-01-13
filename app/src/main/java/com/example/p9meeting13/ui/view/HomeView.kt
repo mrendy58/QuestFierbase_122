@@ -258,6 +258,16 @@ fun CardMhs(
                     fontWeight = FontWeight.Bold,
                 )
             }
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Icon(imageVector = Icons.Filled.Home, contentDescription = "")
+                Text(
+                    text = mhs.judul_skripsi,
+                    fontWeight = FontWeight.Bold,
+                )
+            }
         }
     }
 }

@@ -18,4 +18,5 @@ interface RepositoryMhs {
     //updateMhs
     suspend fun updateMhs(mahasiswa: Mahasiswa)
 
+
 }
